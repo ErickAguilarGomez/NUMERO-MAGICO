@@ -1,0 +1,49 @@
+/* Import Monserrat font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+/* Use the Montserrat font */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  background-image: linear-gradient(#e6dafe 0%, #c592ef 100%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  transition: 0.2s ease-in;
+}
+
+.success {
+  background-image: linear-gradient(#1cdd5c 0%, #2bff00 100%);
+}
+
+main input,
+main button,
+main p {
+  width: 400px;
+}
+
+.big {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+input {
+  padding: 1px 15px;
+  border: 0;
+  border-bottom: solid 1px #2d2d2d;
+  text-align: center;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #2d2d2d;
+  color: white;
+}
